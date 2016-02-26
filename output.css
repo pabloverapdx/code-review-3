@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #ffeecc; }
+  background-color: #d1e277; }
 
 .container {
   width: 100%;
@@ -22,23 +22,23 @@ body {
   width: 100%;
   text-align: center; }
   .logo .tittle {
+    color: #271974;
     text-align: center;
     text-transform: uppercase; }
 
-.nav {
-  background-color: blue; }
-  .nav ul {
-    margin: 0;
-    padding: 0; }
-    .nav ul li {
-      height: 20px;
-      width: 30%;
-      padding: 10px;
-      float: left;
-      margin: 10px 5px 10px 0;
-      display: inline;
-      list-style: none;
-      text-align: center; }
+.nav ul {
+  margin: 0;
+  padding: 0; }
+  .nav ul li {
+    height: 20px;
+    width: 30%;
+    float: left;
+    margin: 1% 1%;
+    display: inline;
+    list-style: none;
+    text-align: center;
+    border: 1px solid black;
+    color: #8877e2; }
 
 .container-item .photo {
   width: 100%;

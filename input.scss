@@ -1,4 +1,5 @@
 @import "_variables.scss";
+@import "_color-pallete.scss";
 @import "_mixins.scss";
 @import "_extends.scss";
 
@@ -14,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: $color-body;
+  background-color: $background;
 }
 
 .container {
@@ -28,14 +29,15 @@ body {
     height: 30px;
     width: $width-100;
     text-align: $center-items;
+
     .tittle {
+      color: $tittle-text-color;
       text-align: $center-items;
       text-transform: uppercase;
     }
 }
 
 .nav {
-    background-color: blue;
 
     ul {
       margin: 0;
@@ -44,12 +46,13 @@ body {
     li {
     height: 20px;
     width: 30%;
-    padding: 10px;
     float: left;
-    margin: 10px 5px 10px 0;
+    margin: 1% 1%;
     display: inline;
     list-style: none;
     text-align: $center-items;
+    border: 1px solid black;
+    color: $text-color;
     }
   }
 }

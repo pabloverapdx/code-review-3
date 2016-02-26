@@ -3,10 +3,10 @@
 // Centering //
 $center-items: center;
 
-
-// Colors //
-$color-body: #ffeecc;
-
-
 // Width //
 $width-100: 100%;
+
+// Color Palette //
+$background: #d1e277;
+$text-color: complement(#d1e277);
+$tittle-text-color: darken($text-color, 40%);
