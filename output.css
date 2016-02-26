@@ -1,3 +1,15 @@
+.container-item .photo {
+  width: 100%;
+  height: 100%;
+  margin: 50px 0 0 0; }
+
+.container-item h3 {
+  margin-top: 15px;
+  border: 1px solid green;
+  color: #246810;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
 *,
 *::before,
 *::after {
@@ -40,16 +52,6 @@ body {
     border: 1px solid black;
     color: #8877e2; }
 
-.container-item .photo {
-  width: 100%;
-  height: 100%;
-  margin: 70px 0 0 0; }
-.container-item h3 {
-  margin-top: 15px;
-  border: 1px solid green;
-  color: #246810;
-  text-transform: uppercase;
-  letter-spacing: 5px; }
 .container-item p {
   text-align: justify;
   padding: 5px;

@@ -59,25 +59,18 @@ body {
 
 .container-item {
     .photo {
-      width: 100%;
-      height: 100%;
-      margin: 70px 0 0 0;
+      @extend %photos;
+    }
 
-    }
     h3 {
-      margin-top: 15px;
-      border: 1px solid green;
-      color: $h3-color;
-      text-transform: uppercase;
-      letter-spacing: 5px;
+      @extend %h3s;
     }
+
     p {
-      text-align: justify;
-      padding: 5px;
-      border: 1px solid purple;
+      @include paragraphs;
     }
+
     img {
-      width: 100%;
-      height: 100%;
+      @include images-size;
     }
 }

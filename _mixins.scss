@@ -1,1 +1,11 @@
 // Mixins //
+@mixin paragraphs {
+  text-align: justify;
+  padding: 5px;
+  border: 1px solid purple;
+}
+
+@mixin images-size {
+  width: 100%;
+  height: 100%;
+}
