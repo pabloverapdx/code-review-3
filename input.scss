@@ -67,6 +67,9 @@ body {
     h3 {
       margin-top: 15px;
       border: 1px solid green;
+      color: $h3-color;
+      text-transform: uppercase;
+      letter-spacing: 5px;
     }
     p {
       text-align: justify;

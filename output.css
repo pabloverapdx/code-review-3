@@ -46,7 +46,10 @@ body {
   margin: 70px 0 0 0; }
 .container-item h3 {
   margin-top: 15px;
-  border: 1px solid green; }
+  border: 1px solid green;
+  color: #246810;
+  text-transform: uppercase;
+  letter-spacing: 5px; }
 .container-item p {
   text-align: justify;
   padding: 5px;
