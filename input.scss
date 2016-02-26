@@ -1,0 +1,77 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_extends.scss";
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffeecc;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #A000A0;
+}
+
+.logo {
+    // background-color: red;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    .tittle {
+      text-align: center;
+    }
+}
+
+.nav {
+    background-color: blue;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+    li {
+    height: 20px;
+    width: 32%;
+    padding: 10px;
+    float: left;
+    margin: 10px 5px 10px 0;
+    display: inline;
+    list-style: none;
+    text-align: center;
+    }
+  }
+}
+
+.container-item {
+    .photo {
+      width: 380px;
+      height: 380px;
+      margin: 70px 0 0 0;
+      background-color: aqua;
+    }
+    h3 {
+      margin-top: 15px;
+      border: 1px solid green;
+    }
+    p {
+      text-align: justify;
+      padding: 5px;
+      border: 1px solid purple;
+    }
+    img {
+      width: 380px;
+      height: 380px
+    }
+}
