@@ -1,8 +1,7 @@
 // Mixins //
 @mixin paragraphs {
-  text-align: justify;
+  text-align: left;
   padding: 5px;
-  border: 1px solid purple;
 }
 
 @mixin images-size {

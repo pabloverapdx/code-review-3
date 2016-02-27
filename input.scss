@@ -1,5 +1,4 @@
 @import "_variables.scss";
-@import "_color-pallete.scss";
 @import "_mixins.scss";
 @import "_extends.scss";
 
@@ -22,19 +21,19 @@ body {
   width: $width-100;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid #A000A0;
-}
+  // border: 1px solid #A000A0;
 
-.logo {
+  .logo {
     height: 30px;
     width: $width-100;
     text-align: $center-items;
 
-    .tittle {
+  .tittle {
       color: $tittle-text-color;
       text-align: $center-items;
       text-transform: uppercase;
     }
+  }
 }
 
 .nav {
@@ -51,7 +50,7 @@ body {
     display: inline;
     list-style: none;
     text-align: $center-items;
-    border: 1px solid black;
+    // border: 1px solid black;
     color: $text-color;
     }
   }
@@ -60,6 +59,7 @@ body {
 .container-item {
     .photo {
       @extend %photos;
+
     }
 
     h3 {
@@ -73,4 +73,21 @@ body {
     img {
       @include images-size;
     }
+}
+
+.container-item {
+  @media (min-width: 600px){
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+
+  @media (min-width: 1200px) {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 25%;
+  }
 }
