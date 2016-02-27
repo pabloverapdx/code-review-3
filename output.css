@@ -26,11 +26,11 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 10px; }
-  .container .logo {
+  .container .header {
     height: 30px;
     width: 100%;
     text-align: center; }
-    .container .logo .tittle {
+    .container .header .tittle {
       color: #271974;
       text-align: center;
       text-transform: uppercase; }
@@ -58,14 +58,10 @@ body {
 @media (min-width: 600px) {
   .container-item {
     width: 50%;
-    margin: 0;
-    padding: 0;
     float: left; } }
 @media (min-width: 1200px) {
   .container-item {
     float: left;
-    margin: 0;
-    padding: 0;
     width: 25%;
     height: 25%; } }
 
