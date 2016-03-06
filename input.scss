@@ -1,6 +1,6 @@
-@import "_variables.scss";
-@import "_mixins.scss";
-@import "_extends.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "extends.scss";
 
 *,
 *::before,
@@ -61,6 +61,7 @@ body {
 
     h3 {
       @extend %h3s;
+      @include article-titles(#246810, 5px, center);
     }
 
     p {
@@ -84,3 +85,7 @@ body {
     height: 25%;
   }
 }
+
+// h3 {
+//   @include border(#246810);
+// }

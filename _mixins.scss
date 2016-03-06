@@ -8,3 +8,9 @@
   width: 100%;
   height: 100%;
 }
+
+@mixin article-titles ($color, $letter-spacing, $align) {
+    color:$color;
+    letter-spacing:$letter-spacing;
+    text-align: $align;
+  }
