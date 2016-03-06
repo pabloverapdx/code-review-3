@@ -45,7 +45,8 @@ body {
     display: inline;
     list-style: none;
     text-align: center;
-    color: #8877e2; }
+    color: #8877e2;
+    font-size: 20px; }
 
 .container-item h3 {
   color: #246810;
