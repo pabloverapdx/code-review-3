@@ -1,6 +1,7 @@
-@import "variables.scss";
-@import "mixins.scss";
-@import "extends.scss";
+@import "bourbon/bourbon";
+@import "variables";
+@import "mixins";
+@import "extends";
 
 *,
 *::before,
@@ -67,6 +68,7 @@ body {
 
     p {
       @include paragraphs;
+
     }
 
     img {
