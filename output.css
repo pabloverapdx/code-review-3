@@ -16,15 +16,18 @@
   box-sizing: border-box; }
 
 body {
+  height: 100vh; }
+
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background-color: #d1e277;
-  background-image: -webkit-linear-gradient(#d1e277, #246810);
-  background-image: linear-gradient(#d1e277, #246810);
+  background-image: -webkit-linear-gradient(#d1e277, #FFFFFF);
+  background-image: linear-gradient(#d1e277, #FFFFFF);
   background-color: #d1e277;
-  background-image: -webkit-linear-gradient(-320deg, #d1e277 30%, #246810 60%);
-  background-image: linear-gradient(50deg,#d1e277 30%, #246810 60%); }
+  background-image: -webkit-linear-gradient(-310deg, #d1e277 30%, #FFFFFF 60%);
+  background-image: linear-gradient(40deg,#d1e277 30%, #FFFFFF 60%); }
 
 .container {
   width: 100%;

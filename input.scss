@@ -12,11 +12,15 @@
 }
 
 body {
+  height: 100vh;
+}
+
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  @include linear-gradient($background, $h3-color);
-  @include linear-gradient(50deg, $background 30%, $h3-color 60%);
+  @include linear-gradient($background, #FFFFFF);
+  @include linear-gradient(40deg, $background 30%, #FFFFFF 60%);
 }
 
 .container {
